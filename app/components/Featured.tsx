@@ -80,7 +80,7 @@ const Featured = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {filteredProducts.map((product) => (
             <div key={product.id} className="group">
-              <div className="relative mb-4 overflow-hidden bg-gray-100">
+              <div className="relative mb-4 overflow-hidden hover:cursor-pointer bg-gray-100">
                 <img
                   src={product.image}
                   alt={product.name}

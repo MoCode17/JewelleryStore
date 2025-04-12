@@ -14,7 +14,7 @@ const Header = () => {
       <header className="sticky top-0 z-50 bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <button className="md-hidden text-gray-700" onClick={toggleMenu}>
+            <button className="md:hidden text-gray-700" onClick={toggleMenu}>
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
 
